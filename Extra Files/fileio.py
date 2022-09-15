@@ -1,0 +1,5 @@
+f=open('demo.txt','r+')
+a=f.write('This is one line')
+print(f.readline())
+print(a)
+f.close()
